@@ -50,10 +50,6 @@
     z-index: 1;
 } */
 
-.nav_black{
-    background-color: rgb(20, 20, 20);
-}
-
 .header_container{
     width: 90%;
     display: flex;
@@ -64,10 +60,21 @@
 .header_left ul{
     list-style: none;
     display: flex;
-    gap: 20px;
-    font-size: 14px;
-    color: #fff;
+    /* gap: 20px; */
+    gap: 3rem;
+    align-items: center;
+    /* font-size: 14px; */
+    /* color: #fff; */
 }
+
+.header_right ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center; 
+}
+
+/* ########################################## */
 
 .header_left ul li{
     cursor: pointer;
@@ -97,4 +104,6 @@
 .header_right ul {
     display: flex; 
 }
-
+.nav_black{
+    background-color: rgb(20, 20, 20);
+}
