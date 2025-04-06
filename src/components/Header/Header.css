@@ -1,0 +1,109 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+}
+/* .nav_black{
+    background-color: rgb(20, 20, 20);
+}
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+*****************************************************
+.header_right{
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: flex-end;
+    position: absolute;
+    right: 4%;
+    top: 0;
+} */
+/* ********************************************** */
+/* .header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+} */
+
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left ul{
+    list-style: none;
+    display: flex;
+    /* gap: 20px; */
+    gap: 3rem;
+    align-items: center;
+    /* font-size: 14px; */
+    /* color: #fff; */
+}
+
+.header_right ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center; 
+}
+
+/* ########################################## */
+
+.header_left ul li{
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header_left ul li:hover{
+    color: #e50914;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.header_right li{
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header_right li:hover{
+    color: #e50914;
+}
+.header_right ul {
+    display: flex; 
+}
+.nav_black{
+    background-color: rgb(20, 20, 20);
+}
